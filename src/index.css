@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* body{
+    background-color: rgb(240, 253, 244);
+} */
+/* rgb(240, 253, 244) */
+/* div{
+    border: 2px solid red;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #452f17;
+  color: #DADADB;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.form-section {
+  margin: 30px 0;
+}
+
+textarea,
+button {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-control {
+  transition: all 0.5s ease-in-out;
+}
+
+.form-control:focus {
+  border-top: 5px solid #cf7a19;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-top-right-radius: 0%;
+}
+
+.btn {
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+  border-top: 5px solid #cf7a19;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-top-right-radius: 0%;
+}
+
+.hr-line {
+  margin: 70px 0 20px;
+  border: 1px solid white;
+}
+
+/* .answer-container {
+  overflow: scroll;
+  max-height: 500px;
+} */
+.copy-icon {
+  transition: all 0.5s ease-in-out;
+}
